@@ -1003,3 +1003,7 @@ ValueError: invalid literal for int() with base 10: '”√¿˝_quant_login_out(µ«»Îµ«
 2018-07-02 15:03:20,152 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 22513
 2018-07-02 15:03:44,373 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 253
 2018-07-02 15:03:46,343 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 27662
+2019-06-01 13:54:41,959 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-06-01 13:54:41,977 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2365
+2019-06-01 13:54:42,040 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-06-01 13:54:42,058 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646

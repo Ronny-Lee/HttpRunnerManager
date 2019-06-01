@@ -437,3 +437,4 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '用例_quant_login_out(登入登出)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang退出
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang 登录成功
+2019-06-01 13:54:41,959 [django.request:93] [base:get_response] [WARNING]- Not Found: /
